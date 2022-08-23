@@ -1,0 +1,115 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer .info-pie {
+  margin-left: 60px;
+  margin-right: 40px;
+  padding: 60px 0px;
+}
+footer .info-pie .descripcion {
+  display: inline-block;
+  width: 40%;
+}
+footer .info-pie .descripcion .logo img {
+  display: inline-block;
+}
+footer .info-pie .descripcion .logo h3 {
+  display: inline-block;
+  font-size: 30px;
+  color: #012970;
+  margin: 0px;
+}
+footer .info-pie .descripcion .texto {
+  margin: 15px 0px 0px 0px;
+}
+footer .info-pie .miscelanea {
+  margin-left: 40px;
+  display: inline-block;
+}
+footer .info-pie .miscelanea .useful {
+  display: inline-block;
+  margin-right: 60px;
+}
+footer .info-pie .miscelanea .useful h4 {
+  color: #1b3e7e;
+  text-transform: uppercase;
+}
+footer .info-pie .miscelanea .useful ul {
+  padding-left: 0px;
+}
+footer .info-pie .miscelanea .useful ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+footer .info-pie .miscelanea .useful ul li a {
+  color: #05348a;
+  text-decoration: none;
+}
+footer .info-pie .miscelanea .useful ul li a:before {
+  color: #d4d8fd;
+  content: "> ";
+}
+footer .info-pie .miscelanea .services {
+  display: inline-block;
+  margin-right: 60px;
+}
+footer .info-pie .miscelanea .services h4 {
+  color: #1b3e7e;
+  text-transform: uppercase;
+}
+footer .info-pie .miscelanea .services ul {
+  padding-left: 0px;
+}
+footer .info-pie .miscelanea .services ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+footer .info-pie .miscelanea .services ul li a {
+  color: #05348a;
+  text-decoration: none;
+}
+footer .info-pie .miscelanea .services ul li a:before {
+  color: #d4d8fd;
+  content: "> ";
+}
+footer .info-pie .miscelanea .contact {
+  vertical-align: top;
+  width: 185px;
+  display: inline-block;
+}
+footer .info-pie .miscelanea .contact h4 {
+  color: #1b3e7e;
+  text-transform: uppercase;
+}
+footer .info-pie .miscelanea .contact address {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-style: normal;
+}
+footer .info-pie .miscelanea .contact p {
+  font-size: 14px;
+  margin: 0px 0px 5px 0px;
+}
+footer .info-pie .miscelanea .contact p span {
+  font-weight: bold;
+}
+footer .copy-right {
+  background: #f6f9fe;
+  padding: 40px 0px;
+}
+footer .copy-right p {
+  color: #1b3e7e;
+  text-align: center;
+  width: 300px;
+  margin: 0px auto;
+}
+footer .copy-right p .negrilla {
+  font-weight: bold;
+}
+footer .copy-right p .salto {
+  display: block;
+  margin-top: 15px;
+}
+footer .copy-right p .color-esp {
+  color: #5666f3;
+}
