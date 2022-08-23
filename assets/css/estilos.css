@@ -1,14 +1,74 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+@font-face {
+  font-family: 'iconitos';
+  src: url("../fonts/iconos/icomoon.eot?lmozq2");
+  src: url("../fonts/iconos/icomoon.eot?lmozq2#iefix") format('embedded-opentype'), url("../fonts/iconos/icomoon.ttf?lmozq2") format('truetype'), url("../fonts/iconos/icomoon.woff?lmozq2") format('woff'), url("../fonts/iconos/icomoon.svg?lmozq2#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.equipo {
+  margin-bottom: 45px;
+}
+.equipo .titulos {
+  text-align: center;
+}
+.equipo .titulos h4 {
+  color: #4153f1;
+  text-transform: uppercase;
+  margin: 0px;
+}
+.equipo .titulos p {
+  color: #012970;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0px;
+}
+.equipo .tarjetas {
+  text-align: center;
+}
+.equipo .tarjetas div {
+  text-align: center;
+  width: 300px;
+  display: inline-block;
+  margin: 30px 15px 0px 15px;
+  -webkit-box-shadow: 0px 0px 22px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 22px -8px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 22px -8px rgba(0,0,0,0.75);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.equipo .tarjetas div img {
+  width: 300px;
+}
+.equipo .tarjetas div h5 {
+  font-size: 20px;
+  color: #15397b;
+  margin: 20px 0px 10px 0px;
+}
+.equipo .tarjetas div h6 {
+  margin: 0px;
+  font-size: 14px;
+  color: #ababab;
+}
+.equipo .tarjetas div p {
+  font-size: 13px;
+  width: 90%;
+  margin: 15px auto 35px auto;
+  font-style: italic;
+  color: #5e5e5e;
+}
 footer .info-pie {
-  margin-left: 60px;
-  margin-right: 40px;
+  border-top: 1px solid #e1ecff;
+  border-bottom: 1px solid #e1ecff;
   padding: 60px 0px;
 }
 footer .info-pie .descripcion {
   display: inline-block;
   width: 40%;
+  margin-left: 40px;
 }
 footer .info-pie .descripcion .logo img {
   display: inline-block;
@@ -21,6 +81,28 @@ footer .info-pie .descripcion .logo h3 {
 }
 footer .info-pie .descripcion .texto {
   margin: 15px 0px 0px 0px;
+}
+footer .info-pie .descripcion .redes a {
+  text-decoration: none;
+  color: #8393b8;
+  margin-right: 20px;
+  font-size: 30px;
+}
+footer .info-pie .descripcion .redes a .twtt:before {
+  font-family: 'iconitos';
+  content: "\ea96";
+}
+footer .info-pie .descripcion .redes a .fb:before {
+  font-family: 'iconitos';
+  content: "\ea90";
+}
+footer .info-pie .descripcion .redes a .instam:before {
+  font-family: 'iconitos';
+  content: "\ea92";
+}
+footer .info-pie .descripcion .redes a .linked:before {
+  font-family: 'iconitos';
+  content: "\eac9";
 }
 footer .info-pie .miscelanea {
   margin-left: 40px;
@@ -102,6 +184,10 @@ footer .copy-right p {
   text-align: center;
   width: 300px;
   margin: 0px auto;
+}
+footer .copy-right p .copy:before {
+  font-family: 'iconitos';
+  content: "\e900";
 }
 footer .copy-right p .negrilla {
   font-weight: bold;
