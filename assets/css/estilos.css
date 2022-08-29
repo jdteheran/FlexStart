@@ -1,5 +1,10 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/open-sans/OpenSans-Regular.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url("../fonts/open-sans/OpenSans-Bold.ttf") format('truetype');
 }
 @font-face {
   font-family: 'iconitos';
@@ -8,6 +13,85 @@
   font-weight: normal;
   font-style: normal;
   font-display: block;
+}
+* {
+  font-family: 'Open Sans';
+}
+.precios {
+  margin-bottom: 70px;
+}
+.precios .titulos {
+  text-align: center;
+  margin-bottom: 35px;
+}
+.precios .titulos h4 {
+  color: #4153f1;
+  text-transform: uppercase;
+  margin: 0px;
+}
+.precios .titulos p {
+  color: #012970;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0px;
+}
+.precios .tarjetas {
+  text-align: center;
+}
+.precios .tarjetas div {
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  -webkit-box-shadow: 0px 0px 67px 23px #f6f7f9;
+  -moz-box-shadow: 0px 0px 67px 23px #f6f7f9;
+  box-shadow: 0px 0px 67px 23px #f6f7f9;
+}
+.precios .tarjetas div h5 {
+  font-size: 18px;
+}
+.precios .tarjetas div .free {
+  color: #03d5c0;
+}
+.precios .tarjetas div .valor {
+  font-family: 'Open Sans Bold';
+  font-size: 30px;
+}
+.precios .tarjetas div .valor .signo {
+  font-size: 20px;
+  position: relative;
+  font-weight: bold;
+  bottom: 15px;
+}
+.precios .tarjetas div .valor .moneda {
+  font-size: 16px;
+  font-weight: normal;
+  color: #bbb;
+}
+.precios .tarjetas div img {
+  width: 200px;
+}
+.precios .tarjetas div ul {
+  margin-top: 25px;
+  padding-left: 0px;
+}
+.precios .tarjetas div ul li {
+  margin-bottom: 15px;
+  list-style: none;
+}
+.precios .tarjetas div ul .tachado {
+  text-decoration-line: line-through;
+  color: #bbb;
+}
+.precios .tarjetas div button {
+  margin: 25px 0px 50px 0px;
+  padding: 10px 40px;
+  border-radius: 20px;
+  background-color: #fff;
+  font-weight: bold;
+  color: #4153f1;
+  border: 1px solid #a7aff8;
 }
 .equipo {
   margin-bottom: 45px;
@@ -59,6 +143,9 @@
   margin: 15px auto 35px auto;
   font-style: italic;
   color: #5e5e5e;
+}
+footer {
+  background: url("../imgs/footer-bg.png") no-repeat right;
 }
 footer .info-pie {
   border-top: 1px solid #e1ecff;
