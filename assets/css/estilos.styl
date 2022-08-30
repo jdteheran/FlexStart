@@ -24,6 +24,78 @@
 *
     font-family: 'Open Sans'
 
+header
+    background-image: url('../imgs/hero-bg.png') 
+    background-size: contain
+    .barra
+        .logo
+            display: inline-block
+            margin: 20px 0px 0px 70px
+            img
+                display: inline-block
+            h3
+                display: inline-block
+                font-size: 30px
+                color: #012970
+                margin: 0px
+        .lista
+            display: inline-block
+            float: right
+            margin-top: 20px
+            ul   
+                li
+                    display: inline-block
+                    margin-right: 30px
+                    a
+                        font-family: 'Open Sans Bold'
+                        text-decoration: none
+                        color: #023289
+                li:first-child, li:nth-last-child(2)
+                    a
+                        color: #4e5ff2
+                li:nth-last-child(3)
+                    a:after
+                        font-family: 'Open Sans Bold'
+                        display: inline-block
+                        transform: rotate(90deg)
+                        content: ">"
+                        margin-left: 2px
+                        font-weight: 900
+                        color: #cad3e6
+                li:last-child
+                    margin-right: 50px
+                    border-radius: 5px
+                    padding: 8px 20px
+                    background-color: #4e5ff2
+                    a
+                        color: white 
+    .banner
+        .titulo, .imagen
+            width: 45%
+            display: inline-block
+        .titulo
+            vertical-align: top
+            margin: 70px 0px 0px 70px
+            h1
+                color: #012970
+                width: 60%
+                font-weight: bold
+            p
+                color: #454646
+                font-size: 18px
+                width: 60%
+                font-weight: bold
+            button
+                padding: 10px 35px
+                margin-top: 15px
+                background-color: #4153f1
+                color: white
+                border: 0px
+                border-radius: 5px
+                .flecha:after
+                    content: "→"
+                    
+
 
 .valores
     margin-bottom: 80px
@@ -85,6 +157,18 @@
             -webkit-box-shadow: 0px 0px 67px 23px rgba(246,247,249,1);
             -moz-box-shadow: 0px 0px 67px 23px rgba(246,247,249,1);
             box-shadow: 0px 0px 67px 23px rgba(246,247,249,1);
+            position relative
+            overflow: hidden
+            .paralelog
+                border: 1px solid #aaa
+                background-color: #4153f1
+                color: white
+                padding: 5px 0px
+                width: 150px
+                position: absolute
+                right: -40px
+                top: 5px
+                transform: rotate(45deg)
             h5
                 font-size: 18px
             .free

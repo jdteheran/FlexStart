@@ -17,6 +17,90 @@
 * {
   font-family: 'Open Sans';
 }
+header {
+  background-image: url("../imgs/hero-bg.png");
+  background-size: contain;
+}
+header .barra .logo {
+  display: inline-block;
+  margin: 20px 0px 0px 70px;
+}
+header .barra .logo img {
+  display: inline-block;
+}
+header .barra .logo h3 {
+  display: inline-block;
+  font-size: 30px;
+  color: #012970;
+  margin: 0px;
+}
+header .barra .lista {
+  display: inline-block;
+  float: right;
+  margin-top: 20px;
+}
+header .barra .lista ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+header .barra .lista ul li a {
+  font-family: 'Open Sans Bold';
+  text-decoration: none;
+  color: #023289;
+}
+header .barra .lista ul li:first-child a,
+header .barra .lista ul li:nth-last-child(2) a {
+  color: #4e5ff2;
+}
+header .barra .lista ul li:nth-last-child(3) a:after {
+  font-family: 'Open Sans Bold';
+  display: inline-block;
+  transform: rotate(90deg);
+  content: ">";
+  margin-left: 2px;
+  font-weight: 900;
+  color: #cad3e6;
+}
+header .barra .lista ul li:last-child {
+  margin-right: 50px;
+  border-radius: 5px;
+  padding: 8px 20px;
+  background-color: #4e5ff2;
+}
+header .barra .lista ul li:last-child a {
+  color: #fff;
+}
+header .banner .titulo,
+header .banner .imagen {
+  width: 45%;
+  display: inline-block;
+}
+header .banner .titulo {
+  vertical-align: top;
+  margin: 70px 0px 0px 70px;
+}
+header .banner .titulo h1 {
+  color: #012970;
+  width: 60%;
+  font-weight: bold;
+}
+header .banner .titulo p {
+  color: #454646;
+  font-size: 18px;
+  width: 60%;
+  font-weight: bold;
+}
+header .banner .titulo button {
+  padding: 10px 35px;
+  margin-top: 15px;
+  background-color: #4153f1;
+  color: #fff;
+  border: 0px;
+  border-radius: 5px;
+}
+header .banner .titulo button .flecha:after {
+  content: "→";
+}
 .valores {
   margin-bottom: 80px;
 }
@@ -90,6 +174,19 @@
   -webkit-box-shadow: 0px 0px 67px 23px #f6f7f9;
   -moz-box-shadow: 0px 0px 67px 23px #f6f7f9;
   box-shadow: 0px 0px 67px 23px #f6f7f9;
+  position: relative;
+  overflow: hidden;
+}
+.precios .tarjetas div .paralelog {
+  border: 1px solid #aaa;
+  background-color: #4153f1;
+  color: #fff;
+  padding: 5px 0px;
+  width: 150px;
+  position: absolute;
+  right: -40px;
+  top: 5px;
+  transform: rotate(45deg);
 }
 .precios .tarjetas div h5 {
   font-size: 18px;
