@@ -17,6 +17,49 @@
 * {
   font-family: 'Open Sans';
 }
+.valores {
+  margin-bottom: 80px;
+}
+.valores .titulos {
+  text-align: center;
+  margin-bottom: 35px;
+}
+.valores .titulos h4 {
+  color: #4153f1;
+  text-transform: uppercase;
+  margin: 0px;
+}
+.valores .titulos p {
+  color: #012970;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0px;
+}
+.valores .tarjetas {
+  text-align: center;
+}
+.valores .tarjetas div {
+  border: 3px solid #f4f5f6;
+  width: 400px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.valores .tarjetas img {
+  width: 300px;
+  margin-top: 40px;
+}
+.valores .tarjetas h5 {
+  font-family: 'Open Sans Bold';
+  font-size: 20px;
+  color: #072e73;
+}
+.valores .tarjetas p {
+  width: 300px;
+  margin: 0 auto 30px auto;
+  font-size: 14px;
+}
 .precios {
   margin-bottom: 70px;
 }
@@ -53,6 +96,15 @@
 }
 .precios .tarjetas div .free {
   color: #03d5c0;
+}
+.precios .tarjetas div .starter {
+  color: #65c602;
+}
+.precios .tarjetas div .business {
+  color: #ff9221;
+}
+.precios .tarjetas div .ultimate {
+  color: #ff0071;
 }
 .precios .tarjetas div .valor {
   font-family: 'Open Sans Bold';
@@ -144,10 +196,9 @@
   font-style: italic;
   color: #5e5e5e;
 }
-footer {
-  background: url("../imgs/footer-bg.png") no-repeat right;
-}
 footer .info-pie {
+  background: url("../imgs/footer-bg.png") no-repeat top right;
+  background-size: contain;
   border-top: 1px solid #e1ecff;
   border-bottom: 1px solid #e1ecff;
   padding: 60px 0px;
