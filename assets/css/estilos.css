@@ -20,6 +20,9 @@
 header {
   background-image: url("../imgs/hero-bg.png");
   background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 header .barra .logo {
   display: inline-block;
@@ -100,6 +103,13 @@ header .banner .titulo button {
 }
 header .banner .titulo button .flecha:after {
   content: "→";
+}
+header .banner .imagen {
+  text-align: center;
+}
+header .banner .imagen img {
+  margin-top: 50px;
+  width: 450px;
 }
 .valores {
   margin-bottom: 80px;
