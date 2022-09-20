@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Clientes</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+    <button id="mostrar_registro">+</button>
+    <div class="contendor registro">
+        <h1>Registro de clientes</h1>
+        <form action="/cualer" method="post">
+            <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+            <input type="text" name="apellido" placeholder="Apellido" id="apellido">
+            <input type="email" name="correo" placeholder="Correo" id="correo">
+            <input type="number" name="celular" placeholder="Celular" id="celular">
+            <input type="submit" value="Crear usuario" id="crear">
+        </form>
+    </div>
+
+    <div class="contenedor lista">
+        <h1>Lista Clientes</h1>
+        <table border="1">
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Correo</th>
+                <th>Acciones</th>
+            </tr>
+            <tr>
+                <td>108595</td>
+                <td>Juan</td>
+                <td>jdteheran@uninorte.edu.co</td>
+                <td>
+                    <button>Ver</button>
+                    <button>Editar</button>
+                    <button>Eliminar</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="assets/js/script.js"></script>
+
+</html>
