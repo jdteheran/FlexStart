@@ -1,0 +1,50 @@
+.layout, .caja {
+    border: 1px solid #333;
+}
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+.caja {
+    margin: 5px;
+    text-align: center;
+    color: white;
+    height: fit-content;
+    flex-grow: 1;
+}
+
+.rojo {
+    background: red;
+}
+
+.azul {
+    background: blue;
+    margin-top: 20vh;
+}
+
+.verde {
+    background: green;
+    align-self: center;
+    margin-bottom: 20vh;
+
+}
+
+.naranja {
+    background: orange;
+    align-self: center;
+    margin-top: 20vh;
+}
+
+.rosado {
+    background: pink;
+    align-self: flex-end;
+    margin-bottom: 20vh;
+}
+
+.fucsia {
+    background: fuchsia;
+    align-self: flex-end;
+}
