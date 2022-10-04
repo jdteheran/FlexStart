@@ -104,9 +104,7 @@ btns_eliminar.forEach(btn => {
 
             window.localStorage.setItem('clientes', JSON.stringify(clientes))
 
-            const tabla = document.querySelector('table')
-
-            tabla.innerHTML = tabla.innerHTML.replace(btn.parentElement.parentElement, "")
+            btn.parentElement.parentElement.remove()
         }
     })
 });
